@@ -1,44 +1,75 @@
-# React + Vite
+React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive calculator built using React and Vite, supporting basic arithmetic, scientific operations, memory functions, keyboard interaction, and dark mode.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧮 Basic Operations: Addition, Subtraction, Multiplication, Division, Percentage
 
-## Expanding the ESLint configuration
+🧠 Scientific Functions: Square Root, Square (x²), Reciprocal (1/x), Power (x^y)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-Sure! Here's a sample README for your calculator project on GitHub:
+💾 Memory Functions: M+, M-, MR, MC
 
-Basic Calculator Project
-This project is a simple web-based calculator that can perform basic arithmetic operations, such as addition, subtraction, multiplication, and division. It is built using HTML, CSS, and JavaScript.
+📜 History Tracking: View last 10 calculations
 
-Features
-Addition (+)
-Subtraction (-)
-Multiplication (×)
-Division (÷)
-Clear button (C) to reset the input
-Responsive design that works on both desktop and mobile
-Technologies Used
-HTML: Structure of the calculator interface.
-CSS: Styling of the layout, buttons, and the overall look of the calculator.
-JavaScript: Functionality to perform arithmetic operations and handle user inputs.
-Installation
+🌗 Theme Toggle: Light/Dark mode switch
 
-Usage
-Enter numbers on the calculator using the buttons.
-Use the basic arithmetic operators (+, -, ×, ÷) to perform calculations.
-Press the C button to clear the current input.
-Press = to display the result of the operation.
-Example
-To add 5 + 3:
+⌨️ Keyboard Support: Use number keys and basic operators
 
-Press 5, then +, then 3, and then =.
-The result, 8, will be displayed.
-Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with improvements or bug fixes. Please ensure that any code changes follow the project's coding conventions.
+📱 Responsive Design: Works on desktop and mobile
 
-Feel free to adjust the content to suit your exact project details. This template provides a good starting point for documenting your project on GitHub.
+📂 Project Structure
+
+react-calculator/
+├── index.html
+├── src/
+│   ├── App.jsx           # Main app wrapper
+│   ├── Calculator.jsx    # Full calculator component
+│   ├── App.css           # Custom styles
+│   └── main.jsx          # ReactDOM rendering
+├── vite.config.js
+└── package.json
+
+🛠️ Getting Started
+
+1. Clone the Repo
+
+git clone https://github.com/sumansama/calculator.git
+cd react-calculator
+
+2. Install Dependencies
+
+npm install
+
+3. Run Development Server
+
+npm run dev
+
+Visit http://localhost:5173 to view the calculator.
+
+📦 Build for Production
+
+npm run build
+
+The optimized output will be in the dist/ folder.
+
+🔧 Customization
+
+Modify color scheme and styles in App.css
+
+Change layout or functionality in Calculator.jsx
+
+Extend scientific functions easily via JavaScript Math API
+
+📄 License
+
+This project is open-source under the MIT License.
+
+✨ Acknowledgments
+
+React Icons
+
+Vite
+
+Vanilla CSS for smooth styling
+
